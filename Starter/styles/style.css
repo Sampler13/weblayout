@@ -1,0 +1,59 @@
+:root {
+    --main-color: #FF9900;
+    --focus-color: #F7B045;
+    --active-color: #E1670E;
+    --content-color: #333333;
+    --bg-color: #FFFFFF;
+    --border-color: #CACACA;
+    --link-color: #666666;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1920px;
+    padding: 0 75px;
+    margin: 0 auto;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat-Bold');
+    src: url('../fonts/Montserrat-Bold.woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
